@@ -6,9 +6,9 @@ import {
   Navigate,
 } from "react-router-dom";
 import axios from "axios";
-import SignUp from "./Components/SignUp";
+import SignUp from "./components/SignUp";
 import SignIn from "./components/SignIn";
-import Home from "./Components/Home";
+import Home from "./components/Home";
 import Shop from "./components/Shop";
 import Shirts from "./components/Shirts";
 import Shoes from "./components/Shoes";
