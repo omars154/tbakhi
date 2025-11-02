@@ -1,7 +1,7 @@
 import React from 'react';
 import Header from './Header';
 import Footer from './Footer';
-import '../styles/aboutus.css';
+import "../styles/Style.css";
 
 function AboutUs({ isAuthenticated, onLogout }) {
   return (

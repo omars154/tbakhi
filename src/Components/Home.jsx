@@ -3,7 +3,7 @@ import axios from 'axios';
 import Header from './Header';
 import Footer from './Footer';
 import ProductCard from './ProductCard';
-import '../styles/home.css';
+import "../styles/Style.css";
 
 function Home({ isAuthenticated, onLogout }) {
   const [trends, setTrends] = useState([]);

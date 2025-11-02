@@ -1,4 +1,5 @@
 import { Link } from 'react-router-dom';
+import "../styles/Style.css";
 
 function Header({ isAuthenticated, onLogout }) {
   return (

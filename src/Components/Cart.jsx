@@ -3,7 +3,7 @@ import { useNavigate } from "react-router-dom";
 import axios from "axios";
 import Header from "./Header";
 import Footer from "./Footer";
-import "../styles/cart.css";
+import "../styles/Style.css";
 
 function Cart({ onLogout }) {
   const navigate = useNavigate();

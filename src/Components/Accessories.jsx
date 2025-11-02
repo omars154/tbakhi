@@ -1,8 +1,9 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 import Header from "./Header";
+import Footer from "./Footer.jsx";
 import ProductCard from "./ProductCard";
-import "../styles/shirts.css";
+import "../styles/Style.css";
 
 function Accessories({ isAuthenticated, onLogout }) {
   const [accessories, setAccessories] = useState([]);

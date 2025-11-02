@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import "../styles/Style.css";
 
 function ProductCard({ product, onAddToCart }) {
   const [quantity, setQuantity] = useState(1);

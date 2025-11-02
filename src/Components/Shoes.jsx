@@ -3,7 +3,7 @@ import axios from "axios";
 import Header from "./Header";
 import Footer from "./Footer";
 import ProductCard from "./ProductCard";
-import "../styles/shirts.css";
+import "../styles/Style.css";
 
 function Shoes({ isAuthenticated, onLogout }) {
   const [shoes, setShoes] = useState([]);
